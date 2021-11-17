@@ -1,5 +1,64 @@
 # Rstudio-reproducibility-example
 
-This is the GitHub repository example utilized in the Reproducibility with R Markdown in RStudio workshop (FIXME add link)
+This is the GitHub repository example utilized in the Reproducibility with R Markdown in RStudio workshop (FIXME add link) adapted from `Nitsch, Sellitto & Kalenscher (2021). The effects
+of acute and chronic stress on choice consistency." Psychoneuroendocrinology.` Re-reproduced and adapted for educational purposes by author permission from the original paper found at (FIXME add OSF link). (add details of what was adapated?)
 
-Learners should clone this repository to their own device during episode 3:
+------------------------------
+## README 17 Nov 2021
+
+This directory contains the data and analysis scripts required
+to computationally reproduce the results and plots reported
+in "Nitsch, Sellitto & Kalenscher (2021). The effects
+of acute and chronic stress on choice consistency." Psychoneuroendocrinology.
+
+All provided code is written R (R version 4.0.0 (2020-04-24) -- "Arbor Day).
+It requires the following packages to run analysis code:
+- tidyverse 1.3.0
+- stringi 1.4.6
+- BayesFactor 0.9.12-4.2.
+- patchwork 1.0.0
+
+And the additional packages to render the R Markdown (.rmd) paper:
+- bookdown
+- kable
+- FIXME add additional packages
+
+The structure of the directory is
+
+root
+- RStudio Project File
+- code #Contains all runnable R script files
+- data #Contains raw data
+    - foodchoice_data #Contains raw data from food choice task
+- output #Contain all generated output
+    - data #Contains preprocessed data
+    - plots #Contains all plots
+- paper
+    - source   # R Markdown paper file  
+    - output   # paper outputs
+    - bin   #Contains additional code for proper paper formatting (csl)
+- README.md
+- NitschEtAl2021.Rproj # R project file
+- FIXME add License.md file?
+- FIXME add Citation.md file?
+
+To repeat the analyses, 
+1. Open the RStudio Project file.
+2. Open and run analyses scripts (in order)
+
+Note: data/foodchoice_budgetlines.csv is not required to run
+analysis scripts but is for information only.
+
+Graphic output is saved to output/plots
+Data output is saved to output/data
+Analysis results are saved in environment / printed to console
+Paper output is saved to paper/output
+
+Please see citation.md for instructions on how to cite this workshop.
+
+Please see License.md for instructions on how to re-use this material. 
+
+Enjoy!
+
+PS: For questions please email ucsbcarpentry (@) ucsb.edu.
+
