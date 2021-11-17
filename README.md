@@ -53,6 +53,7 @@ Graphic output is saved to output/plots
 Data output is saved to output/data
 Analysis results are saved in environment / printed to console
 Paper output is saved to paper/output
+paper/bin contains external files/code necessary for the proper formatting of the R Markdown paper output. 
 
 Please see citation.md for instructions on how to cite this workshop.
 
