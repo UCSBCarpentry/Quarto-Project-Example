@@ -146,6 +146,72 @@ Our physiological and subjective stress measures were all assessed following a s
 
 We collected saliva samples with Salivette devices (Sarstedt, Germany) that consist of a cotton wool swab that participants chewed on lightly for 60 s, allowing the swab to fill with saliva. All samples were frozen and stored at −20 degree Celsius and analysed by a commercial lab (Dresden LabService GmbH) for cortisol and alpha-amylase. Cortisol and alpha-amylase concentrations were determined using a luminescent immunoassay (IBL International, Hamburg). For 16 samples analysis of cortisol and/or alpha-amylase was not possible due to insufficient saliva or contamination with blood.
 
+## Preview of Research Results
+
+Fig 3: Mean heart rate of stress and control groups at baseline and during intervention.
+
+```{r}
+library(tidyverse)
+library(BayesFactor)
+
+#Read data
+df <- read.csv("../../output/data/preprocessed-GARP-TSST-data.csv", 
+               encoding = "UTF-8")
+
+#Convert df to long-format
+df_long <- df %>%
+  pivot_longer(cols = c(HR_Baseline_Average, HR_TSST_Average),
+               names_to = "Measurement",
+               values_to = "HR")
+
+#Drop missing values
+df_long <- df_long %>% drop_na(HR)
+
+#Make sure columns are coded as factors for analysis
+df_long$VPN <- as.factor(df_long$VPN)
+df_long$Measurement <- as.factor(df_long$Measurement)
+df_long$Condition <- as.factor(df_long$Condition)
+
+#Bayesian Analysis
+BF <- anovaBF(formula = HR ~ Measurement*Condition + VPN,
+              data = df_long,
+              whichRandom = "VPN")
+
+#Evidence for interaction term
+BF_interaction <- BF[4]/BF[3]
+
+BF_interaction
+
+#Summarize to mean / SEM for plot
+df_long2 <- df_long %>%
+  group_by(Measurement, Condition) %>%
+  summarize(mean_value = mean(HR, na.rm = T),
+            sem = sd(HR, na.rm = T)/sqrt(n()))
+
+#Create plot
+plot <- ggplot(df_long2, aes(Measurement, mean_value, group = Condition, color = Condition)) +
+  geom_pointrange(aes(ymin=mean_value-sem, ymax= mean_value+sem)) +
+  geom_line() +
+  theme_classic() +
+  scale_x_discrete(labels = c("Baseline",
+                              "TSST-G/Control")) +
+  ylab("Mean Heartrate (BPM)") +
+  scale_colour_grey(start = 0.5, end = 0.2) +
+  theme(legend.position = "top")
+
+#Print and save plots  
+plot
+
+```
+
+Fig 4: Cortisol and Amylase levels in stress and control groups
+
+```{r, echo=FALSE}
+source("../../code/02_hormone_analysis.R", local = knitr::knit_global())
+# or
+#sys.source("../../code/02_hormone_analysis.R", envir = knitr::knit_global())
+```
+
 All analyses were conducted in R[^1] in the RStudio IDE[^2] using the packages Tidyverse @wickham2019, stringi[^3], BayesFactor[^4] and patchwork[^5].
 
 [^1]: [<https://www.R-project.org/>](https://www.r-project.org/)
