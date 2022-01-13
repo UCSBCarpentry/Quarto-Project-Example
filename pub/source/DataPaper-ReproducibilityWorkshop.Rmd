@@ -65,21 +65,27 @@ Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; R
 
 This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the *related research article*. The structure of the directory is:
 
-*Analysis*
+*Analysis* *modified for this workshop from the original research organization in OSF
 
 -   R Studio Project File
 
-    -   Analysis-scripts (contains all runnable R script files)
+    -   code (contains all runnable R script files)
 
-    -   Data (contains raw data)
+    -   data (contains raw data)
 
--   Food choice-data (contains raw data from food-choice task)
+      - food choice-data (contains raw data from food-choice task)
 
-    -   Output (contains all generated output)
+    -   output (contains all generated output)
 
-    -   Data (contains pre-processed data)
+      -   data (contains pre-processed data)
 
-    -   Plots (contains all plots)
+      -   plots (contains all plots)
+    
+    - pub (contains all files for publication)
+      
+      - source (contains rmd file, figs, bibliography)
+      
+      - output (contains rendered html publication)
 
 To repeat the analyses of the *related research article*, follow the instructions in the README file.
 
