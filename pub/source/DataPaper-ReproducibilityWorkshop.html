@@ -205,8 +205,8 @@ pre code {
 <h2><strong>Keywords</strong></h2>
 <p>Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.</p>
 </div>
-<div id="specifications-table" class="section level1">
-<h1><strong>Specifications Table</strong></h1>
+<div id="specifications-table" class="section level2">
+<h2><strong>Specifications Table</strong></h2>
 <table>
 <colgroup>
 <col width="6%" />
@@ -263,8 +263,8 @@ Direct URL to data: <a href="https://osf.io/6mvq7/" class="uri">https://osf.io/6
 </tbody>
 </table>
 </div>
-<div id="value-of-the-data" class="section level1">
-<h1><strong>Value of the Data</strong></h1>
+<div id="value-of-the-data" class="section level2">
+<h2><strong>Value of the Data</strong></h2>
 <ul>
 <li><p>The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence <a href="mailto:challenging@nitsch2020b" class="email">challenging@nitsch2020b</a></p></li>
 <li><p>The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.</p></li>
@@ -272,10 +272,12 @@ Direct URL to data: <a href="https://osf.io/6mvq7/" class="uri">https://osf.io/6
 <li><p>The pre-processed data might be used for evidence aggregation in the field of choice consistency/rationality in the future.</p></li>
 </ul>
 </div>
-<div id="data-description" class="section level1">
-<h1><strong>1. Data Description</strong></h1>
+<div id="data-description" class="section level2">
+<h2><strong>1. Data Description</strong></h2>
 <p>This <a href="https://osf.io/6mvq7/">OSF</a> directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the <em>related research article</em>. The structure of the directory is:</p>
-<p><em>Analysis</em> *modified for this workshop from the original research organization in OSF</p>
+<div id="analysis" class="section level3">
+<h3>Analysis</h3>
+<p>*modified for this workshop from the original research organization in OSF</p>
 <ul>
 <li><p>R Studio Project File</p>
 <ul>
@@ -297,7 +299,9 @@ Direct URL to data: <a href="https://osf.io/6mvq7/" class="uri">https://osf.io/6
 </ul></li>
 </ul>
 <p>To repeat the analyses of the <em>related research article</em>, follow the instructions in the README file.</p>
-<p><em>Materials</em></p>
+</div>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
 <ul>
 <li><p>Questionnaires (contains English translations of the administered questionnaire)</p></li>
 <li><p>Snack-Pictures (contains all snack pictures used in the food-choice Task)</p></li>
@@ -318,8 +322,9 @@ Direct URL to data: <a href="https://osf.io/6mvq7/" class="uri">https://osf.io/6
 <p><br />
 </p>
 </div>
-<div id="experimental-design-materials-and-methods" class="section level1">
-<h1><strong>2. Experimental Design, Materials and Methods</strong></h1>
+</div>
+<div id="experimental-design-materials-and-methods" class="section level2">
+<h2><strong>2. Experimental Design, Materials and Methods</strong></h2>
 <p>The dataset contains data of 144 participants. Participants did not have formal psychological or economic education, were 18–40 years old, non-smokers and did not take medication that could have influenced their corticosteroid levels. Women were not taking oral contraceptives. Similar to previous studies, participants had to refrain from drinking alcohol and sexual activities for 24 h, from caffeine for four hours and from eating/drinking (except water) for two hours prior to the beginning of the experiment.</p>
 <p>[Fig. 1] provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.</p>
 <div class="figure">
@@ -337,6 +342,7 @@ Direct URL to data: <a href="https://osf.io/6mvq7/" class="uri">https://osf.io/6
 <p>Our physiological and subjective stress measures were all assessed following a similar mixed-factorial design. However, the exact Measurement regime varied between measures. Self-report trait questionnaires were administered before the experimental session via an online survey (Unipark). An English translation of the administered questionnaires can be found in the online repository.</p>
 <p>We collected saliva samples with Salivette devices (Sarstedt, Germany) that consist of a cotton wool swab that participants chewed on lightly for 60 s, allowing the swab to fill with saliva. All samples were frozen and stored at −20 degree Celsius and analysed by a commercial lab (Dresden LabService GmbH) for cortisol and alpha-amylase. Cortisol and alpha-amylase concentrations were determined using a luminescent immunoassay (IBL International, Hamburg). For 16 samples analysis of cortisol and/or alpha-amylase was not possible due to insufficient saliva or contamination with blood.</p>
 <p>All analyses were conducted in R<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> in the RStudio IDE<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> using the packages Tidyverse <span class="citation">Wickham et al. (2019)</span>, stringi<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, BayesFactor<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> and patchwork<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+</div>
 <div id="ethics-statement" class="section level2">
 <h2>Ethics Statement</h2>
 <p>All participants gave their informed written consent before participation. The study protocol was approved by the ethical council of the medical faculty of Heinrich-Heine-University Düsseldorf (Study-Nr.: 2020-910). The study was conducted in alignment with the declaration of Helsinki.</p>
@@ -382,7 +388,6 @@ Peirce, Jonathan W. 2007. <span>“PsychoPy<span></span>Psychophysics Software i
 </div>
 <div id="ref-wickham2019" class="csl-entry">
 Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy McGowan, Romain François, Garrett Grolemund, et al. 2019. <span>“Welcome to the Tidyverse.”</span> <em>Journal of Open Source Software</em> 4 (43): 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>.
-</div>
 </div>
 </div>
 </div>
