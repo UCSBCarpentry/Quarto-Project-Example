@@ -8,6 +8,12 @@ output:
 bibliography: references.bib
 ---
 
+```{r setup, include=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = FALSE)
+
+#df <- read.csv("./output/data/preprocessed-GARP-TSST-data.csv", encoding = "UTF-8")
+```
+
 Citation to original version of this data article:
 
 Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. *Data in brief*, *37*, 107245. [<https://doi.org/10.1016/j.dib.2021.107245>](https://doi.org/10.1016/j.dib.2021.107245 "Persistent link using digital object identifier")
@@ -155,7 +161,7 @@ library(tidyverse)
 library(BayesFactor)
 
 #Read data
-df <- read.csv("../../output/data/preprocessed-GARP-TSST-data.csv", 
+df <- read.csv("./output/data/preprocessed-GARP-TSST-data.csv", 
                encoding = "UTF-8")
 
 #Convert df to long-format
@@ -206,10 +212,13 @@ plot
 
 Fig 4: Cortisol and Amylase levels in stress and control groups
 
-```{r, echo=FALSE}
-#source("../../code/02_hormone_analysis.R", local = knitr::knit_global())
+```{r,  echo=FALSE, warning = FALSE, message = FALSE, include=TRUE}
+source("./code/05_CCEI_analysis.R", local = knitr::knit_global())
 # or
-#sys.source("../../code/02_hormone_analysis.R", envir = knitr::knit_global())
+#sys.source("./code/02_hormone_analysis.R", envir = knitr::knit_global())
+#knitr::read_chunk('./code/05_CCEI_analysis.r')
+# code = readLines("./code/05_CCEI_analysis.r"),
+plot
 ```
 
 All analyses were conducted in R[^1] in the RStudio IDE[^2] using the packages Tidyverse @wickham2019, stringi[^3], BayesFactor[^4] and patchwork[^5].
