@@ -8,22 +8,6 @@ output:
 bibliography: references.bib
 ---
 
-```{r setup, include=FALSE, echo = FALSE}
-# set global options (for code chunks)
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = FALSE)
-
-```
-
-```{r load-data-libraries}
-# load data
-df <- read.csv("./output/data/preprocessed-GARP-TSST-data.csv", encoding = "UTF-8")
-
-# load libraries
-library(tidyverse)
-library(BayesFactor)
-library(patchwork)
-```
-
 Citation to original version of this data article:
 
 Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. *Data in brief*, *37*, 107245. [<https://doi.org/10.1016/j.dib.2021.107245>](https://doi.org/10.1016/j.dib.2021.107245 "Persistent link using digital object identifier")
