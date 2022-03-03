@@ -53,7 +53,7 @@ Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; R
 
 ## **Value of the Data** (**FIXME4**)
 
-The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging@nitsch2020b
+The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence   challenging @nitsch2020b
 
 The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.
 
@@ -127,8 +127,6 @@ The CSV file contains the data of the first sheet of the mastersheet (root/data/
 ## **2. Experimental Design, Materials and Methods**
 
 The dataset contains data of 144 participants. Participants did not have formal psychological or economic education, were 18--40 years old, non-smokers and did not take medication that could have influenced their corticosteroid levels. Women were not taking oral contraceptives. Similar to previous studies, participants had to refrain from drinking alcohol and sexual activities for 24 h, from caffeine for four hours and from eating/drinking (except water) for two hours prior to the beginning of the experiment.
-
-[Fig. 1] provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.
 
 (**FIXME5**)
 
