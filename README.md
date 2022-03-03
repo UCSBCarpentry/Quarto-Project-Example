@@ -19,8 +19,10 @@ It requires the following packages to run analysis code:
 
 And the additional packages to render the R Markdown (.rmd) paper:
 - bookdown
-- kable
-- FIXME add additional packages
+- tidyverse
+- knitr
+- rticles
+- rprojroot
 
 The structure of the directory is
 
