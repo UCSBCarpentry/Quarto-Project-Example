@@ -24,9 +24,9 @@ And the additional packages to render the R Markdown (.rmd) paper:
 - rticles
 - rprojroot
 
-The structure of the directory is
+The structure of the directory is:
 
-root
+root:
 - RStudio Project File
 - code #Contains all runnable R script files
 - data #Contains raw data
@@ -40,8 +40,8 @@ root
     - bin   #Contains additional code for proper paper formatting (csl)
 - README.md
 - NitschEtAl2021.Rproj # R project file
-- FIXME add License.md file?
-- FIXME add Citation.md file?
+- LICENSE.md
+- CITATION.md
 
 To repeat the analyses, 
 1. Open the RStudio Project file.
