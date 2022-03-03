@@ -128,5 +128,5 @@ for (columns in all_columns) {
 #Compose, print and save plots
 selfreport_plot <- wrap_plots(plots, nrow = 3)
 selfreport_plot
-ggsave("output/plots/selfreport.pdf", selfreport_plot, width = 9.8, height = 7.2)
+#ggsave("output/plots/selfreport.pdf", selfreport_plot, width = 9.8, height = 7.2)
 

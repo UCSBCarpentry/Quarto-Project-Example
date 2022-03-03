@@ -19,7 +19,7 @@ AI_plot <- ggplot(df, mapping = aes(AI)) +
 
 #Print and save plot
 AI_plot
-ggsave("output/plots/bronars.pdf", 
-       plot = AI_plot, device = "pdf",
-       scale = 1, width = 21, height = 7.5, units = "cm",
-       dpi = 600, limitsize = TRUE)
+#ggsave("output/plots/bronars.pdf", 
+#       plot = AI_plot, device = "pdf",
+#       scale = 1, width = 21, height = 7.5, units = "cm",
+#       dpi = 600, limitsize = TRUE)

@@ -91,4 +91,4 @@ for (columns in all_columns) {
 #Compose, print and save plots
 hormone_plot <- plots[[1]] / plots[[2]]
 hormone_plot
-ggsave("output/plots/hormones.pdf", hormone_plot, width = 6.3, height = 6.3)
+#ggsave("output/plots/hormones.pdf", hormone_plot, width = 6.3, height = 6.3)
