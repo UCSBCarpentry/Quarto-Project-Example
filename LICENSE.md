@@ -1,1 +1,1 @@
-add license info here
+This project is governed by a CC BY-NC-SA. You might distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. 
