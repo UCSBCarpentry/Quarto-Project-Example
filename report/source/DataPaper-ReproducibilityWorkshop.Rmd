@@ -10,7 +10,7 @@ bibliography: references.bib
 
 Citation to original version of this data article:
 
-Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. Data in brief **(FIXME1)**, *37*, 107245. https://doi.org/10.1016/j.dib.2021.107245 (**FIXME2**)
+Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. Data in brief (**FIXME1**), *37*, 107245. https://doi.org/10.1016/j.dib.2021.107245 (**FIXME2**)
 
 **Abstract**
 
@@ -20,7 +20,7 @@ A sample of 144 participants underwent the Trier Social Stress Test (TSST), a ps
 
 Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.
 
-**Specifications Table**
+**Specifications Table** (**FIXME3**)
 
 +:-------------------------------+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Subject                        | Neuropsychology and Physiological Psychology                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -51,7 +51,9 @@ Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; R
 | Related research article       | Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. <https://doi.org/10.1016/j.psyneuen.2021.105289>                                                                                                                                                                                                                                                                                                              |
 +--------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## **Value of the Data** (**FIXME4**)
+## **Value of the Data** 
+
+(**FIXME4**)
 
 The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence   challenging @nitsch2020b
 
