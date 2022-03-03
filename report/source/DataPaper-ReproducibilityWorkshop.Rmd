@@ -159,7 +159,7 @@ FIXME add Fig 3 - heart rate analysis
 FIXME add Fig 4: Cortisol and Amylase levels in stress and control groups
 
 
-All analyses were conducted in R[^1] in the RStudio IDE[^2] using the packages Tidyverse @wickham2019, stringi[^3], BayesFactor[^4] and patchwork[^5].
+All analyses were conducted in R[^1] in the RStudio IDE[^2] using the packages Tidyverse (**add citation here**), stringi[^3], BayesFactor[^4] and patchwork[^5].
 
 [^1]: [<https://www.R-project.org/>](https://www.r-project.org/)
 
