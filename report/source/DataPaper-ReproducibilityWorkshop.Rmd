@@ -6,13 +6,6 @@ output:
   html_document:
     df_print: paged
 bibliography: references.bib
-knit: (function(rmdFile, encoding) { 
-      out_dir <- '../output';
-      rmarkdown::render(rmdFile,
-                        encoding=encoding, 
-                        output_file=file.path(dirname(rmdFile), 
-                        out_dir, 
-                        'DataPaper-ReproducibilityWorkshop.html'))})
 ---
 
 Citation to original version of this data article:
