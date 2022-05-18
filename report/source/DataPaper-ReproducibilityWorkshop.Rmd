@@ -152,10 +152,10 @@ We collected saliva samples with Salivette devices (Sarstedt, Germany) that cons
 
 ## Preview of Research Results
 
-FIXME add Fig 3 - Heart Rate Analysis
+(**FIXME 8**) add Fig 3 - Heart Rate Analysis
 
 
-FIXME add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
+(**FIXME 9**) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
 
 
 All analyses were conducted in R[^1] in the RStudio IDE[^2] using the packages Tidyverse (**add citation here**), stringi[^3], BayesFactor[^4] and patchwork[^5].
