@@ -1,10 +1,10 @@
-library(tidyverse)
-library(BayesFactor)
-library(patchwork)
+# Uncomment if libraries need to be loaded
+#library(tidyverse)
+#library(BayesFactor)
+#library(patchwork)
 
 #Read data
-df <- read.csv("output/data/preprocessed-GARP-TSST-data.csv", 
-               encoding = "UTF-8")
+#df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv")
 
 #Define relevant column names
 all_columns = list(

@@ -1,7 +1,8 @@
-library(tidyverse)
+# Uncomment if libraries need to be loaded
+#library(tidyverse)
 
-#Read data
-df <- read.csv("data/bronars_simulation_data.csv")
+# Uncomment to Read data
+#df <- read_csv("data/bronars_simulation_data.csv")
 
 #Create plot
 AI_quantiles <- quantile(df$AI, c(0.25, 0.5, 0.75))

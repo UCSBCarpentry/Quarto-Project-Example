@@ -3,8 +3,7 @@ library(BayesFactor)
 library(patchwork)
 
 #Read data
-df <- read.csv("output/data/preprocessed-GARP-TSST-data.csv", 
-               encoding = "UTF-8") %>%
+df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv") %>%
   
   #Calculate sumscores for PANAS negative and positive affect scale
   #per measurement

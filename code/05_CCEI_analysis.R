@@ -1,9 +1,9 @@
-library(tidyverse)
-library(BayesFactor)
+# Uncomment if libraries need to be loaded
+#library(tidyverse)
+#library(BayesFactor)
 
-#Read data
-df <- read.csv("output/data/preprocessed-GARP-TSST-data.csv", 
-               encoding = "UTF-8")
+# Uncomment to Read data
+# df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv")
 
 #Convert df to long-format
 df_long <- df %>%

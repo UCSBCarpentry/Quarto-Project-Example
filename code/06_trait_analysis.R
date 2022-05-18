@@ -1,8 +1,9 @@
-library(tidyverse)
-library(BayesFactor)
+# Uncomment if libraries need to be loaded
+#library(tidyverse)
+#library(BayesFactor)
 
-#Read data
-df <- read.csv("output/data/preprocessed-GARP-TSST-data.csv", 
+# Uncomment to Read data
+df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv", 
                encoding = "UTF-8")
 
 df2 <- readxl::read_excel("data/online_data_cleaned.xlsx")
@@ -103,7 +104,7 @@ plot <- ggplot(df_full, aes(TICS_Score, `CCEI_1`)) +
 
 #Print and save plots
 plot
-ggsave("output/plots/tics_ccei.pdf", plot, width = 4, height = 2)
+#ggsave("output/plots/tics_ccei.pdf", plot, width = 4, height = 2)
 
 #########################
 #Descriptives
