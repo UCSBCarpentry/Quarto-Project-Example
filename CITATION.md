@@ -1,6 +1,6 @@
 **Workshop Project Repository**
 
-White, T. et al. (2021, Nov. 17) Reproducible rmd. https://github.com/UCSBCarpentry/Reproducible-rmd
+White, T. et al. (2022, May 19) Reproducible rmd. https://github.com/UCSBCarpentry/Reproducible-rmd
 
 
 **Original Project Folder**
