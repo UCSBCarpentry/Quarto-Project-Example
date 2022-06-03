@@ -3,7 +3,7 @@
 This is the GitHub repository for the project example used in the [Reproducible Publications with Rstudio workshop](https://github.com/UCSBCarpentry/Introduction-to-Reproducible-Publications-with-RStudio/blob/gh-pages/_episodes/01-introduction.md). Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with authors' permission.
 
 ------------------------------
-## README 19 May 2022
+## README May 19 2022
 
 This directory contains the data and analysis scripts required
 to computationally reproduce the results and plots reported
