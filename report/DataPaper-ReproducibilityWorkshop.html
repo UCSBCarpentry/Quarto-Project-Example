@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.242">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher">
+
+<title>Data Article: Trier social stress test and food-choice: Behavioral, self-report &amp; hormonal data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/clipboard/clipboard.min.js"></script>
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/quarto.js"></script>
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/popper.min.js"></script>
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/anchor.min.js"></script>
+<link href="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="DataPaper-ReproducibilityWorkshop_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="DataPaper-ReproducibilityWorkshop_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="DataPaper-ReproducibilityWorkshop_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="DataPaper-ReproducibilityWorkshop_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Article: Trier social stress test and food-choice: Behavioral, self-report &amp; hormonal data</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Citation to original version of this data article:</p>
+<p>Nitsch, F. J., Sellitto, M., &amp; Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report &amp; hormonal data. Data in brief (<strong>Example 1</strong>), <em>37</em>, 107245. https://doi.org/10.1016/j.dib.2021.107245 (<strong>Example 2</strong>)</p>
+<p><strong>Abstract</strong></p>
+<p>A sample of 144 participants underwent the Trier Social Stress Test (TSST), a psychosocial stress manipulation involving a mock interview and a mental arithmetic task, or a matched control procedure. Physiological stress was estimated via a collection of 7 saliva samples over the course of the experiment analysed for cortisol and alpha-amylase, as well as via the mean heart-rate measured before and during the experimental manipulation. Subjective stress was assessed via the Positive and Negative Affect Scale as well as four Visual Analogue Scales at 6 points over the time course of the experiment.</p>
+<p><strong>Keywords:</strong> Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.</p>
+<p><strong>1. Value of the Data</strong> (<strong>Example 3</strong>)</p>
+<p>(<strong>Example 4</strong>)</p>
+<p>The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging <span class="citation" data-cites="nitsch2020b">(<a href="#ref-nitsch2020b" role="doc-biblioref">Nitsch and Kalenscher 2020a</a>)</span>.</p>
+<p>The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.</p>
+<section id="data-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-description"><strong>2. Data Description</strong></h2>
+<p>This <a href="https://osf.io/6mvq7/">OSF</a> directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the <em>related research article</em>. The structure of the directory is:</p>
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
+<p>*modified for this workshop from the original directory structure in OSF</p>
+<ul>
+<li><p>R Studio Project File</p>
+<ul>
+<li><p>code (contains all runnable R script files)</p></li>
+<li><p>data (contains raw data)</p>
+<ul>
+<li>food choice-data (contains raw data from food-choice task)</li>
+</ul></li>
+<li><p>output (contains all generated output)</p>
+<ul>
+<li><p>data (contains pre-processed data)</p></li>
+<li><p>plots (contains all plots)</p></li>
+</ul></li>
+<li><p>report (contains all files for publication)</p>
+<ul>
+<li><p>source (contains rmd file, figs, bibliography)</p></li>
+<li><p>output (contains rendered html publication)</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>To repeat the analyses of the <em>related research article</em>, follow the instructions in the README file.</p>
+<p>The CSV file contains choice consistency data for 10.000 (<strong>Example 7</strong>) simulated participants, that have been used to determine the power of our food-choice task design to detect choice consistency violations. Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by <span class="citation" data-cites="nitsch2020a">Nitsch and Kalenscher (<a href="#ref-nitsch2020a" role="doc-biblioref">2020b</a>)</span> and <span class="citation" data-cites="afriat1972">Afriat (<a href="#ref-afriat1972" role="doc-biblioref">1972</a>)</span>.</p>
+<p><br>
+</p>
+</section>
+</section>
+<section id="experimental-design-materials-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-design-materials-and-methods"><strong>3. Experimental Design, Materials and Methods</strong></h2>
+<p>The dataset contains data of 144 participants. Participants did not have formal psychological or economic education, were 18–40 years old, non-smokers and did not take medication that could have influenced their corticosteroid levels. Women were not taking oral contraceptives. Similar to previous studies, participants had to refrain from drinking alcohol and sexual activities for 24 h, from caffeine for four hours and from eating/drinking (except water) for two hours prior to the beginning of the experiment.</p>
+<p>(<strong>Example 5</strong>)</p>
+<p>[Fig. 1 provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.]</p>
+<p>Our food-choice task was administered following a 2 × 3 mixed-factorial design with Experimental Group (stress vs.&nbsp;control) as between-subject factor and Measurement (Baseline, Early, Late) as within-subject factor. We deployed a standard food-choice task similar to the one used by <span class="citation" data-cites="harbaugh2001">Harbaugh, Krause, and Berry (<a href="#ref-harbaugh2001" role="doc-biblioref">2001</a>)</span> and <span class="citation" data-cites="chung2017">Chung, Tymula, and Glimcher (<a href="#ref-chung2017" role="doc-biblioref">2017</a>)</span>. In each trial, participants chose one out of a set of two to seven snack bundles. Each snack bundle consisted of specific amounts of a sweet or salty snack and a fruit or vegetable. The choice set was defined by all integer combinations of sweet or salty snack and fruit or vegetable on the budget-line. The budget-line was given by the following formula:</p>
+<p>(<strong>Example 6</strong>) Amount (fruit/vegetable) = - px/py Amount (sweet/salty) + m/py</p>
+<p>At the end of the experiment, one trial was randomly selected for each participant, and their choice in that trial was implemented, i.e., participants received their chosen snack bundle. The experimental task was presented via PsychoPy <span class="citation" data-cites="peirce2007">Peirce (<a href="#ref-peirce2007" role="doc-biblioref">2007</a>)</span>. For 8 participants (out of N = 144 participants), no or incomplete food-choice data were saved due to a technical failure of the experimental hardware.</p>
+</section>
+<section id="preview-of-research-results" class="level2">
+<h2 class="anchored" data-anchor-id="preview-of-research-results"><strong>4. Preview of Research Results</strong></h2>
+<p>(<strong>Example 8</strong>) add Fig 3 - Heart Rate Analysis</p>
+<p>(<strong>Example 9</strong>) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups</p>
+<p>All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (<strong>add citation here</strong>), stringi, BayesFactor and patchwork.</p>
+</section>
+<section id="ethics-statement" class="level2">
+<h2 class="anchored" data-anchor-id="ethics-statement">Ethics Statement</h2>
+<p>All participants gave their informed written consent before participation. The study protocol was approved by the ethical council of the medical faculty of Heinrich-Heine-University Düsseldorf (Study-Nr.: 2020-910). The study was conducted in alignment with the declaration of Helsinki.</p>
+<p><br>
+</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-afriat1972" class="csl-entry" role="doc-biblioentry">
+Afriat, S. N. 1972. <span>“Efficiency Estimation of Production Functions.”</span> <em>International Economic Review</em> 13 (3): 568. <a href="https://doi.org/10.2307/2525845">https://doi.org/10.2307/2525845</a>.
+</div>
+<div id="ref-chung2017" class="csl-entry" role="doc-biblioentry">
+Chung, Hui-Kuan, Agnieszka Tymula, and Paul Glimcher. 2017. <span>“The Reduction of Ventrolateral Prefrontal Cortex Gray Matter Volume Correlates with Loss of Economic Rationality in Aging.”</span> <em>The Journal of Neuroscience</em> 37 (49): 12068–77. <a href="https://doi.org/10.1523/jneurosci.1171-17.2017">https://doi.org/10.1523/jneurosci.1171-17.2017</a>.
+</div>
+<div id="ref-harbaugh2001" class="csl-entry" role="doc-biblioentry">
+Harbaugh, William T, Kate Krause, and Timothy R Berry. 2001. <span>“GARP for Kids: On the Development of Rational Choice Behavior.”</span> <em>American Economic Review</em> 91 (5): 1539–45. <a href="https://doi.org/10.1257/aer.91.5.1539">https://doi.org/10.1257/aer.91.5.1539</a>.
+</div>
+<div id="ref-nitsch2020a" class="csl-entry" role="doc-biblioentry">
+Nitsch, Felix Jan, and Tobias Kalenscher. 2020b. <span>“Keeping a Cool Head at All Times. What Determines Choice Consistency?”</span> <a href="http://dx.doi.org/10.31234/osf.io/etyhx">http://dx.doi.org/10.31234/osf.io/etyhx</a>.
+</div>
+<div id="ref-nitsch2020b" class="csl-entry" role="doc-biblioentry">
+———. 2020a. <span>“Keeping a Cool Head at All Times. What Determines Choice Consistency?”</span> <a href="http://dx.doi.org/10.31234/osf.io/etyhx">http://dx.doi.org/10.31234/osf.io/etyhx</a>.
+</div>
+<div id="ref-peirce2007" class="csl-entry" role="doc-biblioentry">
+Peirce, Jonathan W. 2007. <span>“PsychoPy<span></span>Psychophysics Software in Python.”</span> <em>Journal of Neuroscience Methods</em> 162 (1-2): 8–13. <a href="https://doi.org/10.1016/j.jneumeth.2006.11.017">https://doi.org/10.1016/j.jneumeth.2006.11.017</a>.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,96 @@
+---
+title: "Data Article: Trier social stress test and food-choice: Behavioral, self-report & hormonal data"
+author: "Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher"
+format: html
+editor: visual
+bibliography: references.bib
+---
+Citation to original version of this data article:
+
+Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. Data in brief (**Example 1**), *37*, 107245. https://doi.org/10.1016/j.dib.2021.107245 (**Example 2**)
+
+**Abstract**
+
+A sample of 144 participants underwent the Trier Social Stress Test (TSST), a psychosocial stress manipulation involving a mock interview and a mental arithmetic task, or a matched control procedure. Physiological stress was estimated via a collection of 7 saliva samples over the course of the experiment analysed for cortisol and alpha-amylase, as well as via the mean heart-rate measured before and during the experimental manipulation. Subjective stress was assessed via the Positive and Negative Affect Scale as well as four Visual Analogue Scales at 6 points over the time course of the experiment.
+
+**Keywords:** Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.
+
+
+**1. Value of the Data** (**Example 3**)
+
+(**Example 4**)
+
+The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging [@nitsch2020b].
+
+The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.
+
+
+## **2. Data Description**
+
+This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data described, as well as analysis scripts required to computationally reproduce the results and plots reported in the *related research article*. The structure of the directory is:
+
+### Analysis
+
+\*modified for this workshop from the original directory structure in OSF
+
+-   R Studio Project File
+
+    -   code (contains all runnable R script files)
+
+    -   data (contains raw data)
+
+        -   food choice-data (contains raw data from food-choice task)
+
+    -   output (contains all generated output)
+
+        -   data (contains pre-processed data)
+
+        -   plots (contains all plots)
+
+    -   report (contains all files for publication)
+
+        -   source (contains rmd file, figs, bibliography)
+
+        -   output (contains rendered html publication)
+
+To repeat the analyses of the *related research article*, follow the instructions in the README file.
+
+
+The CSV file contains choice consistency data for 10.000 (**Example 7**) simulated participants, that have been used to determine the power of our food-choice task design to detect choice consistency violations. Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by @nitsch2020a and @afriat1972. 
+
+\
+
+## **3. Experimental Design, Materials and Methods**
+
+The dataset contains data of 144 participants. Participants did not have formal psychological or economic education, were 18--40 years old, non-smokers and did not take medication that could have influenced their corticosteroid levels. Women were not taking oral contraceptives. Similar to previous studies, participants had to refrain from drinking alcohol and sexual activities for 24 h, from caffeine for four hours and from eating/drinking (except water) for two hours prior to the beginning of the experiment.
+
+(**Example 5**)
+
+\[Fig. 1 provides an exact overview of the experimental timeline for each measure we collected. All experimental sessions took place from 3 p.m. to 6 p.m. to control for circadian variations of hormonal levels. Participants were assigned to the two experimental conditions pseudo-randomly.\]
+
+Our food-choice task was administered following a 2 × 3 mixed-factorial design with Experimental Group (stress vs. control) as between-subject factor and Measurement (Baseline, Early, Late) as within-subject factor. We deployed a standard food-choice task similar to the one used by @harbaugh2001 and @chung2017. In each trial, participants chose one out of a set of two to seven snack bundles. Each snack bundle consisted of specific amounts of a sweet or salty snack and a fruit or vegetable. The choice set was defined by all integer combinations of sweet or salty snack and fruit or vegetable on the budget-line. The budget-line was given by the following formula:
+
+(**Example 6**) Amount (fruit/vegetable) = - px/py Amount (sweet/salty) + m/py
+
+At the end of the experiment, one trial was randomly selected for each participant, and their choice in that trial was implemented, i.e., participants received their chosen snack bundle. The experimental task was presented via PsychoPy @peirce2007. For 8 participants (out of N = 144 participants), no or incomplete food-choice data were saved due to a technical failure of the experimental hardware.
+
+
+## **4. Preview of Research Results**
+
+(**Example 8**) add Fig 3 - Heart Rate Analysis
+
+(**Example 9**) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
+
+All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (**add citation here**), stringi, BayesFactor and patchwork.
+
+
+## Ethics Statement
+
+All participants gave their informed written consent before participation. The study protocol was approved by the ethical council of the medical faculty of Heinrich-Heine-University Düsseldorf (Study-Nr.: 2020-910). The study was conducted in alignment with the declaration of Helsinki.
+
+\
+
+## References
+
+::: {#refs}
+:::
