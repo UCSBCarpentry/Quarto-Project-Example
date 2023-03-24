@@ -1,15 +1,18 @@
 # Reproducible Publications with Rstudio (Project Example)
 
-Attention: This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Rstudio Workshop](https://github.com/carpentries-incubator/Reproducible-Publications-with-RStudio). Learners will be required to download the project example in order to follow along. 
+*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Rstudio Workshop](https://github.com/carpentries-incubator/Reproducible-Publications-with-RStudio). Learners will be required to download the project example in order to follow along. 
+
+**The project example folder is a simplified version of the original projectavailable at: https://osf.io/6mvq7.**
+
 Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with the authors' permission.
 
 ------------------------------
 ## README May 19 2022
 
 This directory contains the data and analysis scripts required
-to computationally reproduce the results and plots reported
+to computationally reproduce some of the results and plots reported
 in "Nitsch, Sellitto & Kalenscher (2021). The effects
-of acute and chronic stress on choice consistency." Psychoneuroendocrinology.
+of acute and chronic stress on choice consistency." Psychoneuroendocrinology that are used in this workshop.
 
 All provided code is written R (R version 4.0.0 (2020-04-24) -- "Arbor Day).
 It requires the following packages to run analysis code:
