@@ -81,7 +81,7 @@ At the end of the experiment, one trial was randomly selected for each participa
 
 (**Example 9**) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
 
-All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (**add citation here**), stringi, BayesFactor and patchwork.
+All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (**add citation here**), string (**add citation here**), BayesFactor and patchwork.
 
 
 ## Ethics Statement
