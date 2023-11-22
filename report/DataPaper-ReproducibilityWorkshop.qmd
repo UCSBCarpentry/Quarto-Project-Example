@@ -4,6 +4,7 @@ author: "Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher"
 format:
   html:
     toc: false
+    number-sections: false
 bibliography: references.bib
 ---
 Citation to original version of this data article:
