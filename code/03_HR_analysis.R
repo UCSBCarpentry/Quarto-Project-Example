@@ -2,7 +2,7 @@ library(tidyverse)
 library(BayesFactor)
 
 #Read data
-df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv")
+df <- read_csv("data/preprocessed-GARP-TSST-data.csv")
 
 #Convert df to long-format
 df_long <- df %>%
