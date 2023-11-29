@@ -4,7 +4,7 @@
 #library(patchwork)
 
 #Read data
-#df <- read_csv("output/data/preprocessed-GARP-TSST-data.csv")
+#df <- read_csv("data/processed/preprocessed-GARP-TSST-data.csv")
 
 #Define relevant column names
 all_columns = list(
@@ -91,4 +91,4 @@ for (columns in all_columns) {
 #Compose, print and save plots
 hormone_plot <- plots[[1]] / plots[[2]]
 hormone_plot
-#ggsave("output/plots/hormones.pdf", hormone_plot, width = 6.3, height = 6.3)
+#ggsave("output/hormones.pdf", hormone_plot, width = 6.3, height = 6.3)
