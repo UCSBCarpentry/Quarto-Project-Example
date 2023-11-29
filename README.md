@@ -31,21 +31,21 @@ And the additional packages to render the R Markdown (.rmd) paper:
 The structure of the directory is:
 
 root:
-- RStudio Project File
-- code #Contains all runnable R script files
-- data #Contains raw data
-    - foodchoice_data #Contains raw data from food choice task
-- output #Contain all generated output
-    - data #Contains preprocessed data
-    - plots #Contains all plots
-- paper
-    - source   # R Markdown paper file  
-    - output   # paper outputs
-    - bin   #Contains additional code for proper paper formatting (csl)
-- README.md
-- NitschEtAl2021.Rproj # R project file
-- LICENSE.md
-- CITATION.md
+
+- `Reproducible-Publications-with-RStudio-Example.Rproj` # RStudio Project File
+- `code` #Contains all runnable R script files
+- `data` 
+    - `processed`  # Contains processed data
+    - `raw`      # Contains raw data
+        - `foodchoice_data`  # Contains raw data from food choice task
+- `output` # Contain all generated output
+- `report`
+    - `DataPaper-ReproducibilityWorkshop_files`   # Rendered files  
+    - `fig`   # paper figures
+- `LICENSE.md`
+- `CITATION.md`
+- `README.md`
+- `_quarto.yml`
 
 To repeat the analyses, 
 1. Open the RStudio Project file.
