@@ -4,7 +4,7 @@
 #source("analysis_scripts/functions/GARP_funcs.R")
 
 #Read Mastersheet
-df <- readxl::read_excel("data/GARP-TSST-mastersheet.xlsx")
+df <- readxl::read_excel("data/raw/GARP-TSST-mastersheet.xlsx")
 
 #Loop over all Food Choice data files
 dir <-"./data/foodchoice_data"
