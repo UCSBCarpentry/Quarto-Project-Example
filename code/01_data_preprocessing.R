@@ -71,5 +71,5 @@ df_full <- df %>%
   full_join(ccei_data, by = "VPN")
 
 #Save data to file
-write.csv(df_full, "output/data/preprocessed-GARP-TSST-data.csv", 
+write.csv(df_full, "data/processed/preprocessed-GARP-TSST-data.csv", 
           fileEncoding = "UTF-8", row.names = FALSE)
