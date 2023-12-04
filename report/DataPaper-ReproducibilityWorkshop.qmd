@@ -76,6 +76,8 @@ At the end of the experiment, one trial was randomly selected for each participa
 
 ## **4. Preview of Research Results**
 
+**Cross-reference (Figure 3)** below describes the mean heart rate of stress and control groups at baseline and during intervention.
+
 (**Example 8**) add Fig 3 - Heart Rate Analysis
 
 (**Example 9**) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
