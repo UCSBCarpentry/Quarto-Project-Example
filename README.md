@@ -12,12 +12,12 @@ Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, 
 This directory contains the data and analysis scripts required to computationally reproduce some of the results and plots reported
 in "Nitsch, Sellitto & Kalenscher (2021). The effects of acute and chronic stress on choice consistency." Psychoneuroendocrinology that are used in this workshop.
 
-All provided code is written R (R version 4.0.0 (2020-04-24) -- "Arbor Day).
-It requires the following packages to run analysis code:
-- tidyverse 1.3.0
-- stringi 1.4.6
-- BayesFactor 0.9.12-4.2.
-- patchwork 1.0.0
+All provided code is written in R (R version 4.0.0 (2020-04-24) -- "Arbor Day") and should work with more recent versions. 
+It requires the following packages to run the analysis code:
+- tidyverse - 1.3.2
+- stringi - 1.7.8
+- bayesFactor - 0.9.12-4.5
+- patchwork - 1.1.3
 
 The structure of the directory is:
 
