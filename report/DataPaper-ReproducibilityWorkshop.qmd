@@ -1,5 +1,5 @@
 ---
-title: "Data Article: Trier social stress test and food-choice: Behavioral, self-report & hormonal data (Carpentrye version)"
+title: "Data Article: Trier social stress test and food-choice: Behavioral, self-report & hormonal data (Carpentry Workshop Version)"
 author: "Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher"
 format: html
 bibliography: references.bib
