@@ -18,6 +18,7 @@ It requires the following packages to run the analysis code:
 - stringi - 1.7.8
 - bayesFactor - 0.9.12-4.5
 - patchwork - 1.1.3
+- usethis - 2.2.2 
 
 The structure of the directory is:
 
