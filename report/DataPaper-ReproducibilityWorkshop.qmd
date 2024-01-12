@@ -75,11 +75,11 @@ At the end of the experiment, one trial was randomly selected for each participa
 
 ## **4. Preview of Research Results**
 
-**Cross-reference (Figure 3)** below describes the mean heart rate of stress and control groups at baseline and during intervention.
+**Cross-reference (Figure 2)** below describes the mean heart rate of stress and control groups at baseline and during intervention.
 
-(**Example 8**) add Fig 3 - Heart Rate Analysis
+(**Example 8**) add Fig 2 - Heart Rate Analysis
 
-(**Example 9**) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups
+(**Example 9**) add Fig 3: Cortisol and Amylase Levels in Stress and Control Groups
 
 All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (**add citation here**), stringi (**add citation here**), BayesFactor, and patchwork.
 
