@@ -43,9 +43,6 @@ To repeat the analyses,
 1. Open the RStudio Project file.
 2. Open and run analyses scripts (in order)
 
-Note: data/foodchoice_budgetlines.csv is not required to run
-analysis scripts but is for information only.
-
 Graphic output is saved to output/plots
 Data output is saved to output/data
 Analysis results are saved in environment / printed to console
