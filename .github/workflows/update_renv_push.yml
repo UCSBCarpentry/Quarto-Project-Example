@@ -1,0 +1,30 @@
+name: Update renv Branch
+
+on:
+  push:
+    branches: [main]
+    
+permissions: write-all
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git User
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "<EMAIL>"
+
+      - name: Update Test Branch
+        run: |
+          git checkout main
+          git fetch origin
+          git checkout renv
+          git pull
+          git merge origin/main
+          git push origin renv
