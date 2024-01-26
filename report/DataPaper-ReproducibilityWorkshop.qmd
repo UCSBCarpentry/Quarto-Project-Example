@@ -44,8 +44,7 @@ This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data 
 
     -   report (contains all files for publication)
 
-To repeat the analyses of the *related research article*, follow the instructions in the README file.
-
+To repeat the analyses of the *related research article*, follow the instructions in the README file for the original project [https://osf.io/6mvq7/](https://osf.io/6mvq7/).
 
 The CSV file contains choice consistency data for (n? **Example 7A**) simulated participants that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged (**Example 7B**). Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by @nitsch2020 and @afriat1972. 
 
