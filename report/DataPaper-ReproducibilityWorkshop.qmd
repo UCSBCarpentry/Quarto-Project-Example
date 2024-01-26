@@ -36,21 +36,13 @@ This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data 
 
     -   code (contains all runnable R script files)
 
-    -   data (contains raw data)
+    -   data (contains raw and processed data)
 
         -   food choice-data (contains raw data from food-choice task)
 
-    -   output (contains all generated output)
-
-        -   data (contains pre-processed data)
-
-        -   plots (contains all plots)
+    -   output (contains all generated output, e.g., plots)
 
     -   report (contains all files for publication)
-
-        -   source (contains rmd file, figs, bibliography)
-
-        -   output (contains rendered html publication)
 
 To repeat the analyses of the *related research article*, follow the instructions in the README file.
 
