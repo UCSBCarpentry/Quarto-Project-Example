@@ -4,6 +4,7 @@ author: "Felix Jan Nitsch; Manuela Sellitto; Tobias Kalenscher"
 format: html
 bibliography: references.bib
 ---
+
 Citation to the original version of this data article:
 
 Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report & hormonal data. Data in brief (**Example 1**), *37*, 107245. https://doi.org/10.1016/j.dib.2021.107245 (**Example 2**)
@@ -14,7 +15,6 @@ A sample of 144 participants underwent the Trier Social Stress Test (TSST), a ps
 
 **Keywords:** Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.
 
-
 **1. Value of the Data** (**Example 3**)
 
 (**Example 4**)
@@ -22,7 +22,6 @@ A sample of 144 participants underwent the Trier Social Stress Test (TSST), a ps
 The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging [@nitsch2020].
 
 The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.
-
 
 ## **2. Data Description**
 
@@ -44,10 +43,9 @@ This [OSF](https://osf.io/6mvq7/) directory contains the raw and processed data 
 
     -   report (contains all files for publication)
 
-To repeat the analyses of the *related research article*, follow the instructions in the README file for the original project [https://osf.io/6mvq7/](https://osf.io/6mvq7/).
+To repeat the analyses of the *related research article*, follow the instructions in the original project README file ([https://osf.io/6mvq7](https://osf.io/6mvq7/)).
 
-The CSV file contains choice consistency data for (n? **Example 7A**) simulated participants that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged (**Example 7B**). Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by @nitsch2020 and @afriat1972. 
-
+The CSV file contains choice consistency data for (n? **Example 7A**) simulated participants that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged (**Example 7B**). Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by @nitsch2020 and @afriat1972.
 
 ## **3. Experimental Design, Materials and Methods**
 
@@ -63,7 +61,6 @@ Our food-choice task was administered following a 2 × 3 mixed-factorial design 
 
 At the end of the experiment, one trial was randomly selected for each participant, and their choice in that trial was implemented, i.e., participants received their chosen snack bundle. The experimental task was presented via PsychoPy @peirce2007. For 8 participants (out of N = 144 participants), no or incomplete food-choice data were saved due to a technical failure of the experimental hardware.
 
-
 ## **4. Preview of Research Results**
 
 **Cross-reference (Figure 2)** below describes the mean heart rate of stress and control groups at baseline and during intervention.
@@ -74,11 +71,9 @@ At the end of the experiment, one trial was randomly selected for each participa
 
 All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (**add citation here**), stringi (**add citation here**), BayesFactor, and patchwork.
 
-
 ## Ethics Statement
 
 All participants gave their informed written consent before participation. The study protocol was approved by the ethical council of the medical faculty of Heinrich-Heine-University Düsseldorf (Study-Nr.: 2020-910). The study was conducted in alignment with the declaration of Helsinki.
-
 
 ## References
 

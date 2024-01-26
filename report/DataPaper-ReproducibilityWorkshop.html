@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.242">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="DataPaper-ReproducibilityWorkshop_files/libs/clipboard/clipboard.min.js"></script>
@@ -86,14 +86,14 @@ div.csl-indent {
 
 </header>
 
-<p>Citation to original version of this data article:</p>
+<p>Citation to the original version of this data article:</p>
 <p>Nitsch, F. J., Sellitto, M., &amp; Kalenscher, T. (2021). Trier social stress test and food-choice: Behavioral, self-report &amp; hormonal data. Data in brief (<strong>Example 1</strong>), <em>37</em>, 107245. https://doi.org/10.1016/j.dib.2021.107245 (<strong>Example 2</strong>)</p>
 <p><strong>Abstract</strong></p>
 <p>A sample of 144 participants underwent the Trier Social Stress Test (TSST), a psychosocial stress manipulation involving a mock interview and a mental arithmetic task, or a matched control procedure. Physiological stress was estimated via a collection of 7 saliva samples over the course of the experiment analysed for cortisol and alpha-amylase, as well as via the mean heart-rate measured before and during the experimental manipulation. Subjective stress was assessed via the Positive and Negative Affect Scale as well as four Visual Analogue Scales at 6 points over the time course of the experiment.</p>
 <p><strong>Keywords:</strong> Acute stress; Amylase Choice Consistency; Cortisol; Chronic StressFood-Choice; Rationality.</p>
 <p><strong>1. Value of the Data</strong> (<strong>Example 3</strong>)</p>
 <p>(<strong>Example 4</strong>)</p>
-<p>The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging <span class="citation" data-cites="nitsch2020b">(<a href="#ref-nitsch2020b" role="doc-biblioref">Nitsch and Kalenscher 2020a</a>)</span>.</p>
+<p>The data are useful, as both the analysis of salivary cortisol for a relatively large sample as well as the implementation of an incentive-compatible behavioral task are expensive. Further, data sharing in the field of choice consistency/rationality is still relatively uncommon, making the aggregation of evidence challenging <span class="citation" data-cites="nitsch2020">(<a href="#ref-nitsch2020" role="doc-biblioref">Nitsch and Kalenscher 2020</a>)</span>.</p>
 <p>The data is valuable to researchers interested in the interplay of physiological and subjective stress. It enables exploratory data-analysis regarding individual differences in stress reactivity and mediators of the stress response.</p>
 <section id="data-description" class="level2">
 <h2 class="anchored" data-anchor-id="data-description"><strong>2. Data Description</strong></h2>
@@ -105,26 +105,16 @@ div.csl-indent {
 <li><p>R Studio Project File</p>
 <ul>
 <li><p>code (contains all runnable R script files)</p></li>
-<li><p>data (contains raw data)</p>
+<li><p>data (contains raw and processed data)</p>
 <ul>
 <li>food choice-data (contains raw data from food-choice task)</li>
 </ul></li>
-<li><p>output (contains all generated output)</p>
-<ul>
-<li><p>data (contains pre-processed data)</p></li>
-<li><p>plots (contains all plots)</p></li>
-</ul></li>
-<li><p>report (contains all files for publication)</p>
-<ul>
-<li><p>source (contains rmd file, figs, bibliography)</p></li>
-<li><p>output (contains rendered html publication)</p></li>
-</ul></li>
+<li><p>output (contains all generated output, e.g., plots)</p></li>
+<li><p>report (contains all files for publication)</p></li>
 </ul></li>
 </ul>
-<p>To repeat the analyses of the <em>related research article</em>, follow the instructions in the README file.</p>
-<p>The CSV file contains choice consistency data for 10.000 (<strong>Example 7</strong>) simulated participants, that have been used to determine the power of our food-choice task design to detect choice consistency violations. Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by <span class="citation" data-cites="nitsch2020a">Nitsch and Kalenscher (<a href="#ref-nitsch2020a" role="doc-biblioref">2020b</a>)</span> and <span class="citation" data-cites="afriat1972">Afriat (<a href="#ref-afriat1972" role="doc-biblioref">1972</a>)</span>.</p>
-<p><br>
-</p>
+<p>To repeat the analyses of the <em>related research article</em>, follow the instructions in the original project README file (<a href="https://osf.io/6mvq7/">https://osf.io/6mvq7</a>).</p>
+<p>The CSV file contains choice consistency data for (n? <strong>Example 7A</strong>) simulated participants that have been used to determine the power of our food-choice task design to detect choice consistency violations, which averaged (<strong>Example 7B</strong>). Simulated participants solved one measurement (11 trials) of the food-choice task. Simulated choices were uniform-random among the choice sets. Data contains the critical cost efficiency index based on the parameters defined by <span class="citation" data-cites="nitsch2020">Nitsch and Kalenscher (<a href="#ref-nitsch2020" role="doc-biblioref">2020</a>)</span> and <span class="citation" data-cites="afriat1972">Afriat (<a href="#ref-afriat1972" role="doc-biblioref">1972</a>)</span>.</p>
 </section>
 </section>
 <section id="experimental-design-materials-and-methods" class="level2">
@@ -138,35 +128,31 @@ div.csl-indent {
 </section>
 <section id="preview-of-research-results" class="level2">
 <h2 class="anchored" data-anchor-id="preview-of-research-results"><strong>4. Preview of Research Results</strong></h2>
-<p>(<strong>Example 8</strong>) add Fig 3 - Heart Rate Analysis</p>
-<p>(<strong>Example 9</strong>) add Fig 4: Cortisol and Amylase Levels in Stress and Control Groups</p>
-<p>All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (<strong>add citation here</strong>), stringi, BayesFactor and patchwork.</p>
+<p><strong>Cross-reference (Figure 2)</strong> below describes the mean heart rate of stress and control groups at baseline and during intervention.</p>
+<p>(<strong>Example 8</strong>) add Fig 2 - Heart Rate Analysis</p>
+<p>(<strong>Example 9</strong>) add Fig 3: Cortisol and Amylase Levels in Stress and Control Groups</p>
+<p>All analyses were conducted in R in the RStudio IDE, using the packages Tidyverse (<strong>add citation here</strong>), stringi (<strong>add citation here</strong>), BayesFactor, and patchwork.</p>
 </section>
 <section id="ethics-statement" class="level2">
 <h2 class="anchored" data-anchor-id="ethics-statement">Ethics Statement</h2>
 <p>All participants gave their informed written consent before participation. The study protocol was approved by the ethical council of the medical faculty of Heinrich-Heine-University Düsseldorf (Study-Nr.: 2020-910). The study was conducted in alignment with the declaration of Helsinki.</p>
-<p><br>
-</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-afriat1972" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-afriat1972" class="csl-entry" role="listitem">
 Afriat, S. N. 1972. <span>“Efficiency Estimation of Production Functions.”</span> <em>International Economic Review</em> 13 (3): 568. <a href="https://doi.org/10.2307/2525845">https://doi.org/10.2307/2525845</a>.
 </div>
-<div id="ref-chung2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chung2017" class="csl-entry" role="listitem">
 Chung, Hui-Kuan, Agnieszka Tymula, and Paul Glimcher. 2017. <span>“The Reduction of Ventrolateral Prefrontal Cortex Gray Matter Volume Correlates with Loss of Economic Rationality in Aging.”</span> <em>The Journal of Neuroscience</em> 37 (49): 12068–77. <a href="https://doi.org/10.1523/jneurosci.1171-17.2017">https://doi.org/10.1523/jneurosci.1171-17.2017</a>.
 </div>
-<div id="ref-harbaugh2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-harbaugh2001" class="csl-entry" role="listitem">
 Harbaugh, William T, Kate Krause, and Timothy R Berry. 2001. <span>“GARP for Kids: On the Development of Rational Choice Behavior.”</span> <em>American Economic Review</em> 91 (5): 1539–45. <a href="https://doi.org/10.1257/aer.91.5.1539">https://doi.org/10.1257/aer.91.5.1539</a>.
 </div>
-<div id="ref-nitsch2020a" class="csl-entry" role="doc-biblioentry">
-Nitsch, Felix Jan, and Tobias Kalenscher. 2020b. <span>“Keeping a Cool Head at All Times. What Determines Choice Consistency?”</span> <a href="http://dx.doi.org/10.31234/osf.io/etyhx">http://dx.doi.org/10.31234/osf.io/etyhx</a>.
+<div id="ref-nitsch2020" class="csl-entry" role="listitem">
+Nitsch, Felix Jan, and Tobias Kalenscher. 2020. <span>“Keeping a Cool Head at All Times. What Determines Choice Consistency?”</span> <a href="http://dx.doi.org/10.31234/osf.io/etyhx">http://dx.doi.org/10.31234/osf.io/etyhx</a>.
 </div>
-<div id="ref-nitsch2020b" class="csl-entry" role="doc-biblioentry">
-———. 2020a. <span>“Keeping a Cool Head at All Times. What Determines Choice Consistency?”</span> <a href="http://dx.doi.org/10.31234/osf.io/etyhx">http://dx.doi.org/10.31234/osf.io/etyhx</a>.
-</div>
-<div id="ref-peirce2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-peirce2007" class="csl-entry" role="listitem">
 Peirce, Jonathan W. 2007. <span>“PsychoPy<span></span>Psychophysics Software in Python.”</span> <em>Journal of Neuroscience Methods</em> 162 (1-2): 8–13. <a href="https://doi.org/10.1016/j.jneumeth.2006.11.017">https://doi.org/10.1016/j.jneumeth.2006.11.017</a>.
 </div>
 </div>
@@ -201,9 +187,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -268,6 +268,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
