@@ -57,4 +57,4 @@ Enjoy!
 
 PS: For questions please email ucsbcarpentry (@) ucsb.edu.
 
-renv branch has the same content with the addition of having renv enabled for better reproducibility
+The `renv` branch has the same content with the addition of having renv enabled for better reproducibility
