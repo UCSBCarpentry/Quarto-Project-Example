@@ -57,4 +57,4 @@ Enjoy!
 
 PS: For questions please email ucsbcarpentry (@) ucsb.edu.
 
-The `renv` branch has the same content with the addition of having renv enabled for better reproducibility
+The `renv` branch has the same content with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility
